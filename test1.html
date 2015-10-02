@@ -16,36 +16,36 @@
 
     	<div class="container-fluid" id="largep">
     	<div class="row-fluid">
-    		<div class="span3">
+    		<div class="col-xs-3 offset1">
 				<img src="ein.jpg" class="img-responsive" alt="Ein">
 			</div>
-       		<div class="span7">
+       		<div class="col-xs-7 offset1">
         		<p>Hello world! This is my dog.</p>
         	</div>
-
-
 		</div>
-	</div>
+		</div>
+		<div class="container-fluid" id="moreinfo">
+			<p>This is more information about my dog.</p>
+		</div>
 
 
-	<div class="navbar fixed-bottom">
+		<div class="navbar navbar-default navbar-fixed-bottom">
 
-		<p>
-  			<button type="button" class="btn btn-primary btn-lg">Vote Here!</button>
-  		</p>
+			<div class="col-xs-2 offset2">
+  				<button type="button" class="btn btn-primary btn-lg" onclick="increase();">Vote Here!</button>
+  			</div>
+  	
+			<div class="col-xs-2 offset1">
+				<input id="qty" value="0"/>
+			</div>
 
-    </div>
-
-
+    	</div>
 
     
     </body>
 
     <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-	
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
 	<script src="clicker.js"></script>
-
 	<script src="app.js"></script>
 </html>
