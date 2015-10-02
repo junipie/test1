@@ -1,2 +1,2 @@
 
-var EinSurvey = new Counter(0);
+var EinSurvey = new Counter(0,1);
